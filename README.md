@@ -1,8 +1,21 @@
+## React Native 환경 설정 
 
 ## 리액트 네이티브 라이브러리
-### 1. 네비게이션
+### 📌1. 네비게이션
 - react-native-screens : 네이티브 화면 성능 최적화
+- @react-navigation/bottom-tabs : 	Bottom Tab Navigation (하단 탭)
+
+### 📌2. API 요청 및 데이터 관리
+- react-query : API 데이터 캐싱 및 관리 
 - axios : API 요청 라이브러리
+
+### 📌3. UI 컴포넌트 및 스타일링
+- react-native-vector-icons : 아이콘 라이브러리
+- tailwind-rn : Tailwind CSS 스타일링
+
+### 📌4. 파일 시스템 및 권한 관리
+- react-native-permissions : 앱 권한 관리 (카메라, 위치 등)
+- react-native-maps : 지도 기능 (Google Maps, Apple Maps)
 ## 📂 프로젝트 폴더 구조
 
 ```plaintext
