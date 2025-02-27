@@ -1,3 +1,8 @@
+
+## 리액트 네이티브 라이브러리
+### 1. 네비게이션
+- react-native-screens : 네이티브 화면 성능 최적화
+- axios : API 요청 라이브러리
 ## 📂 프로젝트 폴더 구조
 
 ```plaintext
