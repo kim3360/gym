@@ -22,6 +22,7 @@
 /src
  ├── components/   # 재사용 가능한 UI 컴포넌트
  ├── screens/      # 앱 화면 (페이지)
+ ├── layout/       # 공통 레이아웃 관련 컴포넌트
  ├── navigation/   # React Navigation 설정
  ├── hooks/        # 커스텀 훅 (상태 관리, API 요청 등)
  ├── contexts/     # Context API 관리 (예: 테마, 인증)
