@@ -32,3 +32,29 @@
  ├── App.tsx       # 앱의 진입점 (최상위 컴포넌트)
  └── index.tsx     # 앱 실행 (React Native 엔트리 포인트)
 ```
+
+## Git Commit 컨벤션
+
+커밋 메시지는 아래의 형식을 따른다
+
+| 태그 | 설명 | 예시 |
+| --- | --- | --- |
+| feat | 새로운 기능 추가 | `feat: 로그인 기능 추가` |
+| fix | 버그 수정  | `fix: 로그인 예외 처리 버그 수정` |
+| docs | README 등의 문서 수정 | `docs: API 명세 업데이트` |
+| style | 코드 스타일 변경 | `style: 코드 포맷팅 개선` |
+| refactor | 기능 변경 없이 코드 내부 구조 리팩토링 | `refactor: 로그인 처리 로직 리팩토링` |
+| test | 테스트 케이스 작성 혹은 수정 | `test: 사용자 인증 로직 테스트 케이스 추가` |
+| chore | 라이브러리 버전 수정, 패키지 관리 등 | `chore: 의존성 버전 업데이트` |
+| comment | 주석 추가 / 수정 | `comment: 불필요한 주석 제거` |
+| hotfix | 배포된 버전에서의 급한 버그 수정 | `hotfix: 서버 Timezone 설정 변경` |
+| rename | 파일, 클래스 등의 이름 변경 | `rename: UserController → AuthController 변경` |
+| remove | 파일, 클래스 등의 삭제 | `remove: 사용하지 않는 DTO 제거` |
+| cicd | CI/CD 관련 설정 | `cicd: Github Actions workflow 추가` |
+
+<aside>
+💡
+
+비슷한 유형의 변동 사항들은 하나의 태그로 커밋 해도 상관없으나, 가급적이면 변동이 발생한 세부 단위로 커밋
+
+</aside>
